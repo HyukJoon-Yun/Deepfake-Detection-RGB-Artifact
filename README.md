@@ -155,26 +155,18 @@ Final Prediction = RGB Prediction × 0.5 + Artifact Prediction × 0.5
 
 RGB 입력과 Artifact Map 입력을 각각 사용하여 모델별 탐지 성능을 비교하였다.
 
-- RGB 입력 기반 실험 결과: MobileNetV3가 가장 높은 성능을 보임
-- Artifact Map 입력 기반 실험 결과: EfficientNet-B4가 가장 높은 성능을 보임
-- 입력 형태에 따라 모델별 성능 차이가 발생함
-
-```text
-RGB 적용 결과:
-MobileNetV3 > EfficientNet-B4 > ResNet-50 > ViT-B/16
-
-Artifact Map 적용 결과:
-EfficientNet-B4 > MobileNetV3 > ResNet-50 > ViT-B/16
-```
-
-![RGB Artifact 단일 입력 성능 비교](./rgb_artifact_single_result.png)
-
 | Model | RGB | Artifact |
 |---|---:|---:|
 | EfficientNet-B4 | 90.00% | 91.50% |
 | MobileNetV3 | 91.50% | 87.00% |
 | ResNet-50 | 52.00% | 54.00% |
 | ViT-B/16 | 50.00% | 50.00% |
+
+- RGB 입력 기반 실험 결과: MobileNetV3가 가장 높은 성능을 보임
+- Artifact Map 입력 기반 실험 결과: EfficientNet-B4가 가장 높은 성능을 보임
+- 입력 형태에 따라 모델별 성능 차이가 발생함
+
+![RGB Artifact 단일 입력 성능 비교](./rgb_artifact_single_result.png)
 
 ---
 
