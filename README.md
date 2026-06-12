@@ -216,7 +216,7 @@ Threshold는 Real/Fake를 분류하기 위한 기준값으로 사용하였다.
 - Fake 이미지 입력 시 Fake로 예측하는지 확인
 - 학습된 모델이 실제 이미지 입력에 대해 분류를 수행할 수 있음을 확인
 
-![모델 실행 결과](./results/model_prediction_example.png)
+![모델 실행 결과](./model_prediction_example.png)
 
 ---
 
