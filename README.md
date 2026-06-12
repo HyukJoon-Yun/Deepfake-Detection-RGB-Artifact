@@ -167,7 +167,14 @@ Artifact Map 적용 결과:
 EfficientNet-B4 > MobileNetV3 > ResNet-50 > ViT-B/16
 ```
 
-![RGB Artifact 단일 입력 성능 비교](./results/rgb_artifact_single_result.png)
+![RGB Artifact 단일 입력 성능 비교](./rgb_artifact_single_result.png)
+
+| Model | RGB | Artifact |
+|---|---:|---:|
+| EfficientNet-B4 | 90.00% | 91.50% |
+| MobileNetV3 | 91.50% | 87.00% |
+| ResNet-50 | 52.00% | 54.00% |
+| ViT-B/16 | 50.00% | 50.00% |
 
 ---
 
