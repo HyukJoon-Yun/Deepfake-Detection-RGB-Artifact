@@ -191,7 +191,7 @@ EfficientNet-B4 > MobileNetV3 > ResNet-50 > ViT-B/16
 - ResNet-50과 ViT-B/16은 본 실험 조건에서 상대적으로 낮은 성능을 보임
 - RGB와 Artifact 정보를 결합했을 때 EfficientNet-B4가 가장 안정적인 결과를 보임
 
-![RGB Artifact 결합 입력 성능 비교](./results/rgb_artifact_ensemble_result.png)
+![RGB Artifact 결합 입력 성능 비교](./rgb_artifact_ensemble_result.png)
 
 ---
 
