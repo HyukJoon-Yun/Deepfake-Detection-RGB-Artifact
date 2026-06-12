@@ -223,11 +223,11 @@ Threshold는 Real/Fake를 분류하기 위한 기준값으로 사용하였다.
 
 실험 결과, EfficientNet-B4가 최종 성능과 입력별 안정성 측면에서 가장 우수하였다.
 
-- EfficientNet-B4는 RGB + Artifact 결합 입력에서 93.5%의 정확도를 기록하였다.
-- Artifact Map은 RGB 이미지에서 놓칠 수 있는 미세한 조작 흔적을 보완하는 역할을 하였다.
-- MobileNetV3는 경량 모델임에도 높은 성능을 보여 활용 가능성을 확인하였다.
-- ResNet-50과 ViT-B/16은 본 실험 조건에서 상대적으로 불안정한 결과를 보였다.
-- 최종적으로 EfficientNet-B4를 딥페이크 탐지에 가장 적합한 모델로 선정하였다.
+- EfficientNet-B4: RGB + Artifact 결합 입력에서 93.5% 정확도 기록
+- Artifact Map: RGB 이미지에서 놓칠 수 있는 미세한 조작 흔적 보완
+- MobileNetV3: 경량 모델임에도 높은 성능 확인
+- ResNet-50, ViT-B/16: 본 실험 조건에서 상대적으로 낮은 성능
+- 최종 모델: EfficientNet-B4 선정
 
 ---
 
