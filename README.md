@@ -200,7 +200,7 @@ EfficientNet-B4 > MobileNetV3 > ResNet-50 > ViT-B/16
 Threshold는 Real/Fake를 분류하기 위한 기준값으로 사용하였다.
 
 - Threshold 값: 0.5
-- F1-score 기준 threshold 0.50에서 가장 높은 성능을 보임
+- F1-score 기준 Threshold 0.50에서 가장 높은 성능을 보임
 - Real 100장 중 96장, Fake 100장 중 91장을 정답으로 분류
 - Accuracy뿐만 아니라 Precision, Recall, F1-score와 오류 유형을 함께 확인함
 
