@@ -92,7 +92,7 @@ Artifact Map = | Original Image - Gaussian Blurred Image |
 
 ### Artifact Map 예시
 
-![RGB Artifact 예시](./images/rgb_artifact_example.png)
+![RGB Artifact 예시](./rgb_artifact_example.png)
 
 ---
 
