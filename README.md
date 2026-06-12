@@ -155,7 +155,7 @@ Final Prediction = RGB Prediction × 0.5 + Artifact Prediction × 0.5
 
 RGB 입력과 Artifact Map 입력을 각각 사용하여 모델별 탐지 성능을 비교하였다.
 
-| Model | RGB | Artifact |
+| 모델 | RGB 정확도 | Artifact 정확도 |
 |---|---:|---:|
 | EfficientNet-B4 | 90.00% | 91.50% |
 | MobileNetV3 | 91.50% | 87.00% |
