@@ -22,7 +22,6 @@
 - 프로젝트 목적: 딥러닝 모델을 활용한 딥페이크 이미지 자동 탐지
 - 비교 방식: RGB 이미지, Artifact Map, RGB + Artifact 앙상블 방식 비교
 - 비교 모델: EfficientNet-B4, MobileNetV3, ResNet-50, ViT-B/16
-- 최종 목표: 모델별 성능 비교를 통한 최종 모델 선정
 
 ### 프로젝트 목표
 
