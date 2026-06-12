@@ -268,7 +268,7 @@ Threshold는 Real/Fake를 분류하기 위한 기준값으로 사용하였다.
 
 ## 8. 결론
 
-본 프로젝트에서는 RGB 이미지와 Artifact Map을 활용하여 CNN 기반 딥페이크 탐지 모델의 성능을 비교하였다.
+본 프로젝트에서는 CNN 계열 모델을 중심으로 RGB 이미지와 Artifact Map을 활용한 딥페이크 탐지 성능을 비교하였다.
 
 - RGB 입력과 Artifact Map 입력은 서로 다른 특징을 학습하였다.
 - Artifact Map은 딥페이크 이미지의 미세한 조작 흔적을 보완하는 데 도움을 주었다.
