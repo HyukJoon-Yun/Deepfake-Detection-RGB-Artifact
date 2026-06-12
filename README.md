@@ -59,6 +59,7 @@
 
 ```text
 Train : Validation = 8 : 2
+```
 
 ---
 
