@@ -34,7 +34,7 @@
 
 아래 그림은 입력 이미지를 380×380 크기로 조정한 뒤, RGB 이미지 특징 추출 과정과 Artifact Map 생성 과정을 거쳐 두 결과를 앙상블하여 Real/Fake를 분류하는 전체 흐름을 나타낸다.
 
-![프로젝트 플로우차트](./project_flowchart.png)
+![프로젝트 플로우차트](./images/project_flowchart.png)
 
 ---
 
@@ -99,7 +99,7 @@ Artifact Map = | Original Image - Gaussian Blurred Image |
 본 프로젝트의 Artifact Map은 원본 이미지와 Gaussian Blur 이미지의 차이를 이용하여 생성하였으며, Noise Map처럼 이미지의 미세한 차이와 조작 흔적을 확인하는 데 도움을 준다.
 
 
-![RGB Artifact 예시](./rgb_artifact_example.png)
+![RGB Artifact 예시](./images/rgb_artifact_example.png)
 
 ---
 
@@ -166,7 +166,7 @@ RGB 입력과 Artifact Map 입력을 각각 사용하여 모델별 탐지 성능
 - Artifact Map 입력 기반 실험 결과: EfficientNet-B4가 가장 높은 성능을 보임
 - 입력 형태에 따라 모델별 성능 차이가 발생함
 
-![RGB Artifact 단일 입력 성능 비교](./rgb_artifact_single_result.png)
+![RGB Artifact 단일 입력 성능 비교](./images/rgb_artifact_single_result.png)
 
 ---
 
@@ -191,7 +191,7 @@ EfficientNet-B4 > MobileNetV3 > ResNet-50 > ViT-B/16
 - ResNet-50과 ViT-B/16은 본 실험 조건에서 상대적으로 낮은 성능을 보임
 - RGB와 Artifact 정보를 결합했을 때 EfficientNet-B4가 가장 안정적인 결과를 보임
 
-![RGB Artifact 결합 입력 성능 비교](./rgb_artifact_ensemble_result.png)
+![RGB Artifact 결합 입력 성능 비교](./images/rgb_artifact_ensemble_result.png)
 
 ---
 
@@ -204,7 +204,7 @@ Threshold는 Real/Fake를 분류하기 위한 기준값으로 사용하였다.
 - Real 100장 중 96장, Fake 100장 중 91장을 정답으로 분류
 - Accuracy뿐만 아니라 Precision, Recall, F1-score와 오류 유형을 함께 확인함
 
-![Threshold 및 Confusion Matrix 분석](./threshold_confusion_matrix.png)
+![Threshold 및 Confusion Matrix 분석](./images/threshold_confusion_matrix.png)
 
 ---
 
@@ -216,7 +216,7 @@ Threshold는 Real/Fake를 분류하기 위한 기준값으로 사용하였다.
 - Fake 이미지 입력 시 Fake로 예측하는지 확인
 - 학습된 모델이 실제 이미지 입력에 대해 분류를 수행할 수 있음을 확인
 
-![모델 실행 결과](./model_prediction_example.png)
+![모델 실행 결과](./images/model_prediction_example.png)
 
 ---
 
