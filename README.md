@@ -32,7 +32,7 @@
 
 ### 프로젝트 전체 흐름도
 
-![프로젝트 플로우차트](./images/project_flowchart.png)
+![프로젝트 플로우차트](./project_flowchart.png)
 
 ---
 
