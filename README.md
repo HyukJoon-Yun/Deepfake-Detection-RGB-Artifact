@@ -200,11 +200,11 @@ EfficientNet-B4 > MobileNetV3 > ResNet-50 > ViT-B/16
 Threshold는 Real/Fake를 분류하기 위한 기준값으로 사용하였다.
 
 - Threshold 값: 0.5
-- 0.5 이상이면 Fake로 분류
-- 0.5 미만이면 Real로 분류
-- Confusion Matrix를 통해 모델의 분류 결과를 시각적으로 확인
+- F1-score 기준 threshold 0.50에서 가장 높은 성능을 보임
+- Real 100장 중 96장, Fake 100장 중 91장을 정답으로 분류
+- Accuracy뿐만 아니라 Precision, Recall, F1-score와 오류 유형을 함께 확인함
 
-![Confusion Matrix](./results/confusion_matrix.png)
+![Threshold 및 Confusion Matrix 분석](./threshold_confusion_matrix.png)
 
 ---
 
