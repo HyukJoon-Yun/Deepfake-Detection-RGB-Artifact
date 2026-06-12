@@ -61,6 +61,8 @@
 
 ![데이터셋 엑셀 정리 예시](./images/dataset_excel_example.png)
 
+학습 데이터와 검증 데이터는 다음 비율로 분할하였다.
+
 ```text
 Train : Validation = 8 : 2
 ```
