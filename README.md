@@ -136,9 +136,9 @@ Final Prediction = RGB Prediction × 0.5 + Artifact Prediction × 0.5
 |---|---|
 | 입력 이미지 크기 | 380 × 380 |
 | 배치 크기 | 4 |
-| 학습 횟수 | 10 |
-| 조기 종료 | patience 4 |
-| 분류 기준값 | 0.5 |
+| 학습 횟수 | 10 Epoch |
+| Early Stopping | patience 4 |
+| Threshold | 0.5 |
 | 체크포인트 기준 | 최소 검증 손실 |
 | 앙상블 가중치 | RGB 0.5 : Artifact 0.5 |
 
