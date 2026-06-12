@@ -92,6 +92,9 @@ Artifact Map = | Original Image - Gaussian Blurred Image |
 
 ### Artifact Map 예시
 
+아래 이미지는 Real/Fake 이미지와 Noise Map을 비교한 예시이다.
+Noise Map은 이미지의 미세한 차이와 조작 흔적을 시각적으로 확인하는 데 도움을 준다.
+
 ![RGB Artifact 예시](./rgb_artifact_example.png)
 
 ---
