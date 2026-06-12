@@ -32,7 +32,7 @@
 
 ### 프로젝트 전체 흐름도
 
-아래 그림은 입력 이미지가 RGB Stream과 Artifact Map Stream으로 나뉘고, 두 결과를 앙상블하여 Real/Fake를 분류하는 전체 흐름을 나타낸다.
+아래 그림은 입력 이미지를 380×380 크기로 조정한 뒤, RGB 이미지 특징 추출 과정과 Artifact Map 생성 과정을 거쳐 두 결과를 앙상블하여 Real/Fake를 분류하는 전체 흐름을 나타낸다.
 
 ![프로젝트 플로우차트](./project_flowchart.png)
 
