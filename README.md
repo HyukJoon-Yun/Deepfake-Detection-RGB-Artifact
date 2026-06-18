@@ -15,7 +15,7 @@
 
 ## Dataset & Model Download
 
-본 프로젝트의 전체 코드와 문서 파일은 GitHub 저장소에 업로드하였으며, 사용한 이미지 데이터와 모델 체크포인트는 용량 제한으로 인해 Google Drive 링크를 통해 제공하였다.
+본 프로젝트의 전체 코드와 문서 파일은 GitHub 저장소에 업로드하였으며, 학습에 사용한 이미지 데이터셋과 모델 체크포인트는 용량 제한으로 인해 Google Drive 링크를 통해 제공하였다.
 
 - GitHub Repository: (https://github.com/HyukJoon-Yun/Deepfake-Detection-RGB-Artifact)
 - Dataset: (https://drive.google.com/drive/folders/1eB1RJPKpPvClzMBPyVqH519XFDFvOCKJ?usp=drive_link)
