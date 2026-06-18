@@ -208,7 +208,24 @@ EfficientNet-B4 > MobileNetV3 > ResNet-50 > ViT-B/16
 
 ---
 
-### 5.3 Threshold 및 Confusion Matrix 분석
+### 5.3 최종 EfficientNet-B4 재평가 결과
+
+초기 모델 비교 실험 이후 데이터셋 내 중복 이미지를 제거하고, train/validation 폴더의 일부 이미지를 재정리하였다.  
+이에 따라 최종 제출 코드에서는 정리된 validation 데이터 200장(Real 100장, Fake 100장)을 기준으로 EfficientNet-B4 모델을 다시 평가하였다.
+
+최종 평가는 `evaluate.py`를 실행하여 수행하였으며, RGB 모델과 Artifact Map 모델의 예측 확률을 평균하여 앙상블 결과를 계산하였다.
+
+| 모델 | REAL 정답 | FAKE 정답 | 전체 정답 | 정확도 |
+|---|---:|---:|---:|---:|
+| RGB EfficientNet-B4 | 92/100 | 98/100 | 190/200 | 95.00% |
+| Artifact Map EfficientNet-B4 | 93/100 | 96/100 | 189/200 | 94.50% |
+| RGB + Artifact Map Ensemble | 92/100 | 100/100 | 192/200 | 96.00% |
+
+최종 재평가 결과, RGB와 Artifact Map을 결합한 EfficientNet-B4 앙상블 모델이 96.00%로 가장 높은 정확도를 보였다.
+
+---
+
+### 5.4 Threshold 및 Confusion Matrix 분석
 
 Threshold는 Real/Fake를 분류하기 위한 기준값으로 사용하였다.
 
@@ -221,7 +238,7 @@ Threshold는 Real/Fake를 분류하기 위한 기준값으로 사용하였다.
 
 ---
 
-### 5.4 모델 실행 결과
+### 5.5 모델 실행 결과
 
 학습된 모델에 Real 이미지와 Fake 이미지를 입력하여 실제 분류 결과를 확인하였다.
 
@@ -233,7 +250,7 @@ Threshold는 Real/Fake를 분류하기 위한 기준값으로 사용하였다.
 
 ---
 
-### 5.5 결과 분석
+### 5.6 결과 분석
 
 실험 결과, EfficientNet-B4가 최종 성능과 입력별 안정성 측면에서 가장 우수하였다.
 
