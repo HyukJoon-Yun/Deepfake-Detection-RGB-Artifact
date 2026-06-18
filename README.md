@@ -304,7 +304,7 @@ Threshold는 Real/Fake를 분류하기 위한 기준값으로 사용하였다.
 본 프로젝트에서는 CNN 계열 모델을 중심으로 RGB 이미지와 Artifact Map을 활용한 딥페이크 탐지 성능을 비교하였다.
 
 - RGB와 Artifact Map은 서로 다른 특징을 학습하며, 결합 시 단일 입력보다 높은 성능을 보였다.
-- 초기 모델 비교 실험에서 EfficientNet-B4가 RGB + Artifact 결합 입력 기준 93.5%로 가장 높은 성능을 보였다.
+- 초기 모델 비교 실험에서 EfficientNet-B4가 RGB + Artifact 앙상블 기준 93.5%로 가장 높은 성능을 보였다.
 - 데이터셋 정제 후 최종 재평가에서 EfficientNet-B4 앙상블 모델은 96.00%의 정확도를 기록하였다.
 - Artifact Map은 RGB 이미지에서 놓칠 수 있는 미세한 조작 흔적을 보완하는 데 효과적이었다.
 - 최종 모델은 성능과 안정성을 고려하여 EfficientNet-B4 기반 RGB + Artifact Map 앙상블 모델로 선정하였다.
