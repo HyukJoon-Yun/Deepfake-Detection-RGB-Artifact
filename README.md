@@ -22,16 +22,6 @@
 
 다운로드한 `data` 폴더와 `models` 폴더는 프로젝트 최상위 경로에 배치하면 됩니다.
 
-예시 구조:
-
-Deepfake-Detection-RGB-Artifact/
-├── main_trainer.py
-├── classify.py
-├── evaluate.py
-├── config.yaml
-├── data/
-└── models/
-
 ---
 
 ## 1. 프로젝트 개요
