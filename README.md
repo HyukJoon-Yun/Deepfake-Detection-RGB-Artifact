@@ -154,6 +154,10 @@ Final Prediction = RGB Prediction × 0.5 + Artifact Prediction × 0.5
 
 본 프로젝트에서는 RGB 단일 입력, Artifact Map 단일 입력, RGB + Artifact 결합 입력 방식으로 실험을 진행하였다.
 
+초기 실험에서는 EfficientNet-B4, MobileNetV3, ResNet-50, ViT-B/16 모델을 비교하였으며, 이후 데이터셋 내 중복 이미지를 제거하고 train/validation 폴더를 일부 재정리하였다.
+
+따라서 본 장에서는 초기 모델 비교 실험 결과와 최종 EfficientNet-B4 재평가 결과를 구분하여 정리하였다.
+
 ---
 
 ### 5.1 RGB / Artifact 단일 입력 성능 비교
