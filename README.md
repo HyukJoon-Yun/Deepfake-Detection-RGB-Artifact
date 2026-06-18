@@ -210,7 +210,7 @@ EfficientNet-B4 > MobileNetV3 > ResNet-50 > ViT-B/16
 초기 모델 비교 실험 이후 데이터셋 내 중복 이미지를 제거하고, train/validation 폴더의 일부 이미지를 재정리하였다.  
 이에 따라 최종 제출 코드에서는 정리된 validation 데이터 200장(Real 100장, Fake 100장)을 기준으로 EfficientNet-B4 모델을 다시 평가하였다.
 
-최종 평가는 `evaluate.py`를 실행하여 수행하였으며, RGB 모델과 Artifact Map 모델의 예측 확률을 평균하여 앙상블 결과를 계산하였다.
+최종 평가는 'evaluate.py' 를 실행하여 수행하였으며, RGB 모델과 Artifact Map 모델의 예측 확률을 평균하여 앙상블 결과를 계산하였다.
 
 | 모델 | REAL 정답 | FAKE 정답 | 전체 정답 | 정확도 |
 |---|---:|---:|---:|---:|
