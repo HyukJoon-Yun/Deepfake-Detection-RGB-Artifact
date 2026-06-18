@@ -20,7 +20,7 @@
 - Dataset Google Drive: [여기에 data 폴더 링크 입력]
 - Model Checkpoints Google Drive: [여기에 models 폴더 링크 입력]
 
-다운로드한 `data` 폴더와 `models` 폴더는 프로젝트 최상위 경로에 배치하면 됩니다.
+다운로드한 data 폴더와 models 폴더는 프로젝트 최상위 경로에 배치하면 됩니다.
 
 ---
 
