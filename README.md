@@ -17,8 +17,8 @@
 
 전체 데이터셋과 학습된 모델 체크포인트는 용량 문제로 GitHub 저장소에 직접 포함하지 않았습니다.
 
-- Dataset Google Drive: [여기에 data 폴더 링크 입력]
-- Model Checkpoints Google Drive: [여기에 models 폴더 링크 입력]
+- Dataset Google Drive: (https://drive.google.com/drive/folders/1eB1RJPKpPvClzMBPyVqH519XFDFvOCKJ?usp=drive_link)
+- Model Checkpoints Google Drive: (https://drive.google.com/drive/folders/1q-EvbEgv5UF9uS9faSEBWY9GiK88FPBs?usp=drive_link)
 
 다운로드한 `data` 폴더와 `models` 폴더는 프로젝트 폴더 안에 그대로 배치하여 사용하면 됩니다.
 
