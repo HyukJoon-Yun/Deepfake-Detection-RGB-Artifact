@@ -17,41 +17,24 @@
 
 전체 데이터셋과 학습된 모델 체크포인트는 용량 문제로 GitHub 저장소에 직접 포함하지 않았습니다.
 
-### Dataset
+## Dataset & Model Download
 
-- Real 이미지: 500장
-- Fake 이미지: 500장
-- 총 데이터 수: 1000장
-- 학습/검증 분할: 8:2
-
-데이터셋은 아래 Google Drive 링크에서 확인할 수 있습니다.
+전체 데이터셋과 학습된 모델 체크포인트는 용량 문제로 GitHub 저장소에 직접 포함하지 않았습니다.
 
 - Dataset Google Drive: [여기에 data 폴더 링크 입력]
-
-실행 시 데이터 폴더 구조는 아래와 같이 배치해야 합니다.
-
-data/
-├── train/
-│   ├── real/
-│   └── fake/
-└── validation/
-    ├── real/
-    └── fake/
-
-### Model Checkpoints
-
-학습된 모델 체크포인트 파일은 아래 Google Drive 링크에서 확인할 수 있습니다.
-
 - Model Checkpoints Google Drive: [여기에 models 폴더 링크 입력]
 
-실행 시 모델 파일은 아래 구조로 배치해야 합니다.
+다운로드한 `data` 폴더와 `models` 폴더는 프로젝트 최상위 경로에 배치하면 됩니다.
 
-models/
-├── rgb_model.ckpt
-└── artifact_map_model.ckpt
+예시 구조:
 
-- `rgb_model.ckpt`: RGB 입력 기반 EfficientNet-B4 모델
-- `artifact_map_model.ckpt`: Artifact Map 입력 기반 EfficientNet-B4 모델
+Deepfake-Detection-RGB-Artifact/
+├── main_trainer.py
+├── classify.py
+├── evaluate.py
+├── config.yaml
+├── data/
+└── models/
 
 ---
 
