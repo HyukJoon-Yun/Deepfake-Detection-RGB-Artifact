@@ -253,14 +253,11 @@ Threshold는 Real/Fake를 분류하기 위한 기준값으로 사용하였다.
 
 실험 결과, EfficientNet-B4가 최종 성능과 입력별 안정성 측면에서 가장 우수하였다.
 
-- 초기 모델 비교: EfficientNet-B4가 RGB + Artifact 결합 입력에서 93.5% 정확도 기록
-- 최종 재평가: 데이터셋 정제 후 EfficientNet-B4 앙상블 모델이 96.00% 정확도 기록
-- RGB 단일 입력: 95.00% 정확도로 전체 이미지 특징을 안정적으로 반영
-- Artifact Map 단일 입력: 94.50% 정확도로 미세한 조작 흔적과 경계 변화 보완
-- RGB + Artifact 결합 입력: 단일 입력보다 높은 성능을 보여 최종 방식으로 선정
-- MobileNetV3: 경량 모델임에도 초기 비교 실험에서 높은 성능 확인
-- ResNet-50, ViT-B/16: 본 실험 조건에서 상대적으로 낮은 성능
-- 최종 모델: EfficientNet-B4 기반 RGB + Artifact Map 앙상블 모델 선정
+- 최종 재평가에서 EfficientNet-B4 RGB + Artifact 앙상블 모델이 96.00% 정확도 기록
+- RGB 단일 입력은 전체 이미지 특징을 안정적으로 반영
+- Artifact Map 단일 입력은 미세한 조작 흔적과 경계 변화 탐지에 도움
+- RGB + Artifact 결합 방식이 단일 입력보다 높은 성능을 보여 최종 방식으로 선정
+- MobileNetV3는 경량 모델로서 가능성을 보였으나, 최종 성능은 EfficientNet-B4가 가장 우수
 
 ---
 
