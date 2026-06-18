@@ -101,10 +101,7 @@ Artifact Map = | Original Image - Gaussian Blurred Image |
 
 아래 이미지는 Real/Fake 이미지와 Noise Map을 비교한 예시이다.
 
-그림에서는 Noise Map이라는 용어를 사용하고 있지만, 본 프로젝트에서는 원본 이미지와 Gaussian Blur 이미지의 차이를 이용해 생성한 차이 기반 특징을 Artifact Map으로 정의하여 사용하였다. 
-
-Artifact Map은 RGB 이미지에서 직접 드러나지 않는 피부 질감, 경계선, 노이즈 변화와 같은 미세한 조작 흔적을 강조하는 데 활용된다.
-
+그림에서는 Noise Map이라는 용어를 사용하고 있지만, 본 프로젝트에서는 이와 같은 차이 기반 특징을 Artifact Map으로 정의하여 사용하였다.
 
 ![RGB Artifact 예시](./images/rgb_artifact_example.png)
 
