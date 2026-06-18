@@ -160,9 +160,11 @@ Final Prediction = RGB Prediction × 0.5 + Artifact Prediction × 0.5
 
 ---
 
-### 5.1 RGB / Artifact 단일 입력 성능 비교
+### 5.1 초기 모델 비교 실험: RGB / Artifact 단일 입력 성능 비교
 
 RGB 입력과 Artifact Map 입력을 각각 사용하여 모델별 탐지 성능을 비교하였다.
+
+아래 결과는 데이터셋 정제 전 초기 비교 실험 결과이며, 최종 재평가 결과와 일부 차이가 있을 수 있다.
 
 | 모델 | RGB 정확도 | Artifact 정확도 |
 |---|---:|---:|
@@ -179,9 +181,11 @@ RGB 입력과 Artifact Map 입력을 각각 사용하여 모델별 탐지 성능
 
 ---
 
-### 5.2 RGB + Artifact 결합 입력 성능 비교
+### 5.2 초기 모델 비교 실험: RGB + Artifact 결합 입력 성능 비교
 
 RGB 모델과 Artifact 모델의 예측 결과를 결합하여 최종 성능을 비교하였다.
+
+아래 결과는 초기 데이터셋 구성 기준의 모델 비교 실험 결과이다.
 
 | 모델 | 정확도 |
 |---|---:|
@@ -195,7 +199,7 @@ RGB 모델과 Artifact 모델의 예측 결과를 결합하여 최종 성능을 
 EfficientNet-B4 > MobileNetV3 > ResNet-50 > ViT-B/16
 ```
 
-- EfficientNet-B4가 93.5%로 가장 높은 정확도를 보임
+- 초기 비교 실험에서 EfficientNet-B4가 93.5%로 가장 높은 정확도를 보임
 - MobileNetV3는 경량 모델임에도 92.5%의 높은 성능을 보임
 - ResNet-50과 ViT-B/16은 본 실험 조건에서 상대적으로 낮은 성능을 보임
 - RGB와 Artifact 정보를 결합했을 때 EfficientNet-B4가 가장 안정적인 결과를 보임
