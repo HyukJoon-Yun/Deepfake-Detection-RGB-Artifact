@@ -229,6 +229,8 @@ EfficientNet-B4 > MobileNetV3 > ResNet-50 > ViT-B/16
 
 Threshold는 Real/Fake를 분류하기 위한 기준값으로 사용하였다.
 
+아래 Threshold 및 Confusion Matrix 결과는 초기 EfficientNet-B4 앙상블 실험 기준으로 분석한 결과이다.
+
 - Threshold 값: 0.5
 - F1-score 기준 Threshold 0.50에서 가장 높은 성능을 보임
 - Real 100장 중 96장, Fake 100장 중 91장을 정답으로 분류
@@ -254,11 +256,14 @@ Threshold는 Real/Fake를 분류하기 위한 기준값으로 사용하였다.
 
 실험 결과, EfficientNet-B4가 최종 성능과 입력별 안정성 측면에서 가장 우수하였다.
 
-- EfficientNet-B4: RGB + Artifact 결합 입력에서 93.5% 정확도 기록
-- Artifact Map: RGB 이미지에서 놓칠 수 있는 미세한 조작 흔적 보완
-- MobileNetV3: 경량 모델임에도 높은 성능 확인
+- 초기 모델 비교: EfficientNet-B4가 RGB + Artifact 결합 입력에서 93.5% 정확도 기록
+- 최종 재평가: 데이터셋 정제 후 EfficientNet-B4 앙상블 모델이 96.00% 정확도 기록
+- RGB 단일 입력: 95.00% 정확도로 전체 이미지 특징을 안정적으로 반영
+- Artifact Map 단일 입력: 94.50% 정확도로 미세한 조작 흔적과 경계 변화 보완
+- RGB + Artifact 결합 입력: 단일 입력보다 높은 성능을 보여 최종 방식으로 선정
+- MobileNetV3: 경량 모델임에도 초기 비교 실험에서 높은 성능 확인
 - ResNet-50, ViT-B/16: 본 실험 조건에서 상대적으로 낮은 성능
-- 최종 모델: EfficientNet-B4 선정
+- 최종 모델: EfficientNet-B4 기반 RGB + Artifact Map 앙상블 모델 선정
 
 ---
 
