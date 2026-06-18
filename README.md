@@ -19,7 +19,7 @@
 
 - GitHub Repository: [Deepfake-Detection-RGB-Artifact](https://github.com/HyukJoon-Yun/Deepfake-Detection-RGB-Artifact)
 
-- Dataset: [Dataset Google Drive](https://drive.google.com/drive/folders/1eB1RJPKpPvClzMBPyVqH519XFDFv0CKJ?usp=drive_link)
+- Dataset: [Dataset Google Drive](https://drive.google.com/drive/folders/1eB1RJPKpPvClzMBPyVqH519XFDFvOCKJ?usp=drive_link)
 
 - Final EfficientNet-B4 Models: [Final EfficientNet-B4 Models Google Drive](https://drive.google.com/drive/folders/1q-EvbEgv5UF9uS9faSEBWY9GiK88FPBs?usp=drive_link)
 
