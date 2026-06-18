@@ -17,9 +17,11 @@
 
 본 프로젝트의 전체 코드와 문서 파일은 GitHub 저장소에 업로드하였으며, 학습에 사용한 이미지 데이터셋과 모델 체크포인트는 용량 제한으로 인해 Google Drive 링크를 통해 제공하였다.
 
-- GitHub Repository: (https://github.com/HyukJoon-Yun/Deepfake-Detection-RGB-Artifact)
-- Dataset: (https://drive.google.com/drive/folders/1eB1RJPKpPvClzMBPyVqH519XFDFvOCKJ?usp=drive_link)
-- Final EfficientNet-B4 Models: (https://drive.google.com/drive/folders/1q-EvbEgv5UF9uS9faSEBWY9GiK88FPBs?usp=drive_link)
+- GitHub Repository: [Deepfake-Detection-RGB-Artifact](https://github.com/HyukJoon-Yun/Deepfake-Detection-RGB-Artifact)
+
+- Dataset: [Dataset Google Drive](https://drive.google.com/drive/folders/1eB1RJPKpPvClzMBPyVqH519XFDFv0CKJ?usp=drive_link)
+
+- Final EfficientNet-B4 Models: [Final EfficientNet-B4 Models Google Drive](https://drive.google.com/drive/folders/1q-EvbEgv5UF9uS9faSEBWY9GiK88FPBs?usp=drive_link)
 
 다운로드한 `data` 폴더와 `models` 폴더는 프로젝트 폴더 내부에 배치하여 실행에 사용할 수 있도록 구성하였다.
 
