@@ -17,10 +17,6 @@
 
 전체 데이터셋과 학습된 모델 체크포인트는 용량 문제로 GitHub 저장소에 직접 포함하지 않았습니다.
 
-## Dataset & Model Download
-
-전체 데이터셋과 학습된 모델 체크포인트는 용량 문제로 GitHub 저장소에 직접 포함하지 않았습니다.
-
 - Dataset Google Drive: [여기에 data 폴더 링크 입력]
 - Model Checkpoints Google Drive: [여기에 models 폴더 링크 입력]
 
